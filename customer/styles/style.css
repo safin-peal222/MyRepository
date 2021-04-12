@@ -1,0 +1,263 @@
+body{
+    font-family:"Roboto",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333333;
+    background-color: #f0f0f0;
+
+}
+#top
+{
+    background-color:#555555;
+    padding: 10px 0px;
+}
+#top .offer
+{
+    color:#fff;
+}
+#top .offer .buttons
+{
+    text-transform: uppercase;
+}
+
+
+
+@media(myx-width:991px)
+{
+    #top .offer
+    {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:991px)
+{
+    #top 
+    {
+        font-size:120px;
+        text-align: center;
+    }
+}
+
+#top a
+{
+    color:#fff;
+}
+#top ul.menu
+{
+    padding-top: 5px;
+    margin: 0;
+    text-align: right;
+    font-size: 12px;
+    list-style:none;
+}
+#top ul.menu > li
+{
+    display: inline-block;
+    list-style:none;
+    padding: 0px 4px 0px 0px;
+}
+
+#navbar .navbar-header .img
+{
+    width:10px;
+    height: 10rem;
+}
+
+
+/*advantage section*/
+
+
+#advantage .box
+{
+    background:#fff;
+    margin: 20px 0 30px;
+    border: solid 1px #e6e6e6;
+    padding: 20px;
+    height: 13rem;
+    clear: both;
+    
+
+}
+#advantage
+{
+    text-align: center;
+}
+#advantage .box .icon
+{
+    font-size: 120px;
+    
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: .3;
+    transition: all .2s ease-out;
+}
+#advantage .box h3
+{
+    position: relative;
+    margin: 0 0 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    z-index: 2;
+}
+#advantage .box h3 a:hover
+{
+    text-decoration: none;
+}
+#content #cart .table tbody tr td img
+{
+    width: 100px;
+}
+#advantage .box p
+{
+    position: relative;
+    color: #555555;
+    z-index: 2;
+}
+#hotbox h2
+{
+   text-transform: uppercase; 
+   font-size: 36px;
+   font-weight: bold;
+}
+
+#content .product
+{
+    background:#fff;
+    border: solid 1px blue;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    clear: both;
+
+}
+#content .product .text .mobile-name
+{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+#content .product .text p.price
+{
+    color: rgb(238, 0, 40);
+    text-align: center;
+    font-size: 30px;
+
+}
+#content .product .text .buttons .btn 
+{
+    color: rgb(245, 0, 0);
+    margin-bottom: 30px;
+    border: 1px solid #333333;
+    
+}
+
+/*breadcrumb section*/
+.breadcrumb
+{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 0;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+.breadcrumb >li 
+{
+    padding-left: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #333;
+}
+.sidebar-menu .category ul
+{
+  list-style: none;
+  color: #223aa8;
+
+}
+.sidebar-menu .category li
+{
+    margin-top: 10px;
+    
+    border-bottom: 1px solid rgb(7, 219, 238);
+    text-align: center;
+}
+
+
+.sidebar-menu .category li a
+{
+    color: rgba(4, 228, 248);
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    font-family: roboto;
+    text-align: center;
+    
+   
+   
+    
+}
+.table-responsive
+{
+   margin-left: 2px;
+}
+@media(max-width:768px)
+{
+    .center-responsive
+    {
+        width: 70%;
+        margin: ;
+    }
+}
+@media(max-width:550px)
+{
+    .center-responsive{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+#footer
+{
+    background: #e0e0e0;
+    padding: 20px 0;
+}
+#footer ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+#footer ul a
+{
+    color: #999999;
+    padding: 20px 0;
+}
+#footer .social a
+{
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 15px;
+    background-color: #555555;
+    transform: all 0.2s ease-out;
+    padding-top: 5px;
+    color: white;
+}
+#copyright
+{
+    background: #333;
+    color: #ccc;
+    padding: 20px;
+    font-size: 12px;
+}
+#copyright p
+{
+    margin: 0;
+}

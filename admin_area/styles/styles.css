@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    color:black;
+}
+.sidebar
+{
+  
+    width: 250px;
+    background-color: black;
+    color: white;
+}
+.sidebar li a
+{
+    text-decoration: none;
+    color: white;
+}
+.sidebar .text
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.sidebar ul
+{
+    background:black;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+.sidebar ul li
+{
+    line-height: 60px;
+    border-bottom: 1px solid white;
+}
+.sidebar ul li.active a
+{
+    background-color: aqua;
+}
+.sidebar ul li a
+{
+     text-decoration: none;
+     font-size: 18px;
+     padding-left: 40px;
+     font-weight: 500;
+     display: block;
+   
+}
+.sidebar ul .feat-show.show
+{
+ display: block;
+} 
+.sidebar ul .serv-show.show1
+{
+ display: block;
+} 
+.sidebar ul .serve-show.show2
+{
+ display: block;
+} 
+.sidebar ul .serve-show1.show3
+{
+ display: block;
+} 
+.sidebar ul .serve-show2.show4
+{
+ display: block;
+} 
+.sidebar ul li.active ul li a
+{
+    background-color: transparent;
+}
+.sidebar ul ul li a
+{
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-left: 80px;
+    
+}
+.sidebar ul ul li a:hover
+{
+    background-color: red!important;
+}
+.sidebar ul ul
+{
+ display: none;
+}
+.sidebar ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+    
+}
+.sidebar ul li a span
+{
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform .4s;
+}
+.sidebar ul li a:hover span
+{
+    transform: translateY(-50%) rotate(-180deg);
+}
+ .admin_ intro
+ {
+     color: aqua;
+ }
+ #admin-intro
+ {
+     color: black;
+     font-size: 1rem;
+     margin-left: 2rem;
+ }
+ .admin-info
+ {
+     margin-left: 1rem;
+ }
+ .prfl
+ {
+
+ }
+ .img
+ {
+     margin-top: 5px;
+ }
+ .table-link a
+ {
+     background-color: aqua;
+     padding: 5px;
+     color: black;
+     border-radius: 5px;
+ }
+ .table-link a:hover
+ {
+    background-color:rebeccapurple;
+    color: aqua;
+    text-decoration: none;
+ }
